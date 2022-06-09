@@ -54,8 +54,8 @@ endmodule
 ### RTL LOGIC:  
 ![image](https://user-images.githubusercontent.com/93427253/172820958-36ee1b0a-2bf8-4df1-9a15-be48eb2ef073.png)
 
-### TIMING DIGRAMS:  
+### TIMING DIAGRAMS:  
 <img width="898" alt="waveform af" src="https://user-images.githubusercontent.com/93427253/172821225-8129c6c5-3249-482c-bdd5-a8f5f6a57976.png">
 
-### RESULTS: 
+### RESULT: 
 Program has been implemented using verilog and output has been validated.

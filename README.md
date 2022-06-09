@@ -6,7 +6,7 @@ To implement PROM using verilog and validate its output
 PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:  
 Quartus prime
-### THEORY 
+### THEORY:
 
 PROM (Programmable Read-Only Memory) is a type of ROM that is written only. It was meant to fulfill the requirement of a group of ROMs which may contain a selected memory content. It’s memory is written just the once and programmed electrically by the user at the time or when the initial chip fabrication. the required content file is equipped by the user and inserted within the machine referred to as storage coder. There exist a fuse at every programmable association and it’s blown once the association isn’t required.
 PROM is primarily meant for smaller productions that require some initial programming. With PROM, the memory chips cannot be improved when they become obsolete. That, plus other limitations, has made PROM a somewhat phased-out type of product and technology in the catalogs of some of today's vendors. In many cases, PROM has been replaced by other methods that involve more flexibility, such as Electronically Erasable Programmable Read-Only Memory (EEPROM).
@@ -17,7 +17,7 @@ A process known as "burning the PROM" blows fuses for bit settings, rendering th
 Figure -01 PROM 
  
  
-### PROCEDURE
+### PROCEDURE:
 1. Open Quartus II and select new project and choose the file location.
 2. Module Declaration. Module should have the file name.
 3. Input-Output Delecaration.
@@ -25,7 +25,7 @@ Figure -01 PROM
 5. At the end give endmodule.
 6. Run the program and choose RTL viewer to get RTL realization.
 
-### PROGRAM 
+### PROGRAM:
 ```
 Program for PROM 
 Developed by: Harini.B
@@ -51,11 +51,11 @@ out=ROM[addr];
 end
 endmodule
 ```
-### RTL LOGIC  
+### RTL LOGIC:  
 ![image](https://user-images.githubusercontent.com/93427253/172820958-36ee1b0a-2bf8-4df1-9a15-be48eb2ef073.png)
 
-### TIMING DIGRAMS  
+### TIMING DIGRAMS:  
 <img width="898" alt="waveform af" src="https://user-images.githubusercontent.com/93427253/172821225-8129c6c5-3249-482c-bdd5-a8f5f6a57976.png">
 
-### RESULTS 
+### RESULTS: 
 Program has been implemented using verilog and output has been validated.
